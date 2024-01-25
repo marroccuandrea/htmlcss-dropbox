@@ -89,7 +89,7 @@ h1{
 .jumbo-box{
     margin: 0 auto;
     flex-wrap: wrap;
-    width: 70%;
+    width: 65%;
     align-items: flex-start;
 }
 
@@ -130,7 +130,7 @@ p{
 }
 
 .arrow a{
-    font-size: 4rem;
+    font-size: 3.8rem;
     color: black;
     
 }
