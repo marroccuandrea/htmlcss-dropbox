@@ -77,11 +77,9 @@ main{
 
 .jumbotron{
     background-color:#B5D0E7;
+    padding-top: 100px;
 }
 
-.jumbo-title{
-    
-}
 
 h1{
     font-size: 4.8rem;
@@ -91,29 +89,49 @@ h1{
 .jumbo-box{
     margin: 0 auto;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     align-items: flex-start;
 }
 
 .text-jumbo{
     width: 30%;
+    padding-top: 50px;
     
 }
 
 p{
     font-weight: 400;
+    padding-bottom: 45px;
 }
 
 .img-jumbo{
+    
     width: 70%;
     position: relative;
 }
 
 .img-jumbo img{
+    padding-top: 50px;
     max-width: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
 
+.prova-text{
+   
+    padding-bottom: 45px;
+}
+
+.prova-text a{
+    background-color: #0062FF;
+    color: white;
+    padding: 10px 20px;
+}
+
+.arrow a{
+    font-size: 4rem;
+    color: black;
+    
+}
 
