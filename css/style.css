@@ -135,3 +135,16 @@ p{
     
 }
 
+.abbonamenti{
+    padding-top: 200px;
+}
+
+.abbonamenti-box{
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 55%;
+}
+
+.business{
+    font-size: 2.5rem;
+}
