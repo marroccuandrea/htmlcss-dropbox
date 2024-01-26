@@ -101,7 +101,7 @@ h1{
     
 }
 
-p{
+.jumbo-box p{
     font-weight: 400;
     padding-bottom: 45px;
 }
@@ -192,14 +192,50 @@ p{
 
 .colonna-vert .professional{
     border: 1px solid black;
-    margin: 40px 30px;
+    margin: 40px 25px;
 }
 
 h3{
     font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .euro{
-    padding-top: 20px;
+    margin-bottom: 20px;
     font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.mensilita{
+    color: #676767;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.lista-top{
+    margin-bottom: 40px;
+}
+
+.prova-gratis{
+    background-color: #0062FF;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 12px 5px;
+}
+
+.oppure{
+    margin-bottom: 40px;
+}
+
+.hr-colonna{
+    max-width: 50px;
+    margin-bottom: 40px;
+    color: #DBDBDE;
+}
+
+h5{
+    margin-bottom: 30px;
 }
