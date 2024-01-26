@@ -143,8 +143,24 @@ p{
     margin: 0 auto;
     flex-wrap: wrap;
     width: 55%;
+    
 }
 
 .business{
     font-size: 2.5rem;
+    
+}
+
+.checkbox1{
+    padding-top: 70px;
+}
+
+.checkbox-rotondo{
+    width: 1.4em;
+    height: 1.4em;
+}
+
+.text-checkbox{
+    padding-left: 5px;
+    padding-right: 40px;
 }
