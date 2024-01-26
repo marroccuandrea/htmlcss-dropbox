@@ -189,6 +189,11 @@ h1{
 
 .colonna-vert i{
     padding-right: 5px;
+    
+}
+
+.colonna-vert p{
+    font-size: 0.9rem;
 }
 
 .colonna-vert .professional{
@@ -237,7 +242,10 @@ h3{
 
 .oppure{
     margin-bottom: 40px;
+}
 
+.oppure a:visited{
+    color: #602993;
 }
 
 .hr-colonna{
