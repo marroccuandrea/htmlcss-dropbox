@@ -141,7 +141,6 @@ p{
 
 .abbonamenti-box{
     margin: 0 auto;
-    flex-wrap: wrap;
     width: 55%;
     
 }
@@ -163,4 +162,27 @@ p{
 .text-checkbox{
     padding-left: 5px;
     padding-right: 40px;
+    font-weight: 400;
+}
+
+.piani-vert{
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.colonna-vert{
+    width: 300px;
+    height: 975px;
+    border: 2px solid #DBDBDE;
+}
+
+.colonna-vert .singolo, .colonna-vert .team, .colonna-vert .azienda{
+    height: 40px;
+    border-bottom: 2px solid #DBDBDE;
+    align-items: center;
+    justify-content: center;
+}
+
+.colonna-vert i{
+    padding-right: 5px;
 }
