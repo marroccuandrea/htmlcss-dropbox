@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -171,9 +173,10 @@ p{
 }
 
 .colonna-vert{
-    width: 300px;
+    width: 30%;
     height: 975px;
     border: 2px solid #DBDBDE;
+    
 }
 
 .colonna-vert .singolo, .colonna-vert .team, .colonna-vert .azienda{
@@ -185,4 +188,18 @@ p{
 
 .colonna-vert i{
     padding-right: 5px;
+}
+
+.colonna-vert .professional{
+    border: 1px solid black;
+    margin: 40px 30px;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.euro{
+    padding-top: 20px;
+    font-weight: 800;
 }
