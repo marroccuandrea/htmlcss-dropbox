@@ -209,12 +209,20 @@ h3{
 
 .mensilita{
     color: #676767;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 0.9rem;
 }
 
 .lista-top{
     margin-bottom: 40px;
+}
+
+.lista{
+    margin-bottom: 20px;
+}
+
+.lista .fa-check{
+    color: #0062FF;
 }
 
 .prova-gratis{
@@ -229,6 +237,7 @@ h3{
 
 .oppure{
     margin-bottom: 40px;
+
 }
 
 .hr-colonna{
@@ -280,3 +289,4 @@ h5{
     margin-top: 30px;
     padding: 12px 15px;
 }
+
