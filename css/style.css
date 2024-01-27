@@ -271,12 +271,10 @@ h5{
     height: 515px;
     width: 55%;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .contatto-img{
     width: 60%;
-    border: 1px solid black;
 }
 
 .contatto-img img{
@@ -315,12 +313,10 @@ h5{
     flex-wrap: wrap;
     height: 1000px;
     width: 100%;
-    border: 1px solid black;
     margin-top: 45px;
 }
 
 .cards{
-    border: 1px solid black;
     width: 33.33%;
     height: 470px;
 }
