@@ -332,9 +332,6 @@ h5{
     margin: 0 auto;
 }
 
-.business-text{
-    margin-bottom: 70px;
-}
 
 .business-h2{
     font-size: 2.5rem;
@@ -344,5 +341,30 @@ h5{
 
 .scopri{
     text-decoration: underline;
+}
+
+.blocchi-colorati{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.macro-blocco{
+    width: 100%;
+    height: 620px;
+}
+
+.macro-blocco .blocco-sx,.macro-blocco  .blocco-centro,.macro-blocco .blocco-dx{
+    width: calc(100vw/3);
+    height: 100%;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+    flex-wrap: wrap;
+}
+
+.blocco-sx .square,.blocco-dx .square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    aspect-ratio: 1/1;
 }
 
