@@ -337,6 +337,7 @@ h5{
     font-size: 2.5rem;
     margin-top: 200px;
     margin-bottom: 70px;
+    
 }
 
 .scopri{
@@ -356,7 +357,6 @@ h5{
 .macro-blocco .blocco-sx,.macro-blocco  .blocco-centro,.macro-blocco .blocco-dx{
     width: calc(100vw/3);
     height: 100%;
-    border: 1px solid black;
     aspect-ratio: 1/1;
     flex-wrap: wrap;
 }
@@ -364,13 +364,11 @@ h5{
 .blocco-sx .square,.blocco-dx .square{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
     aspect-ratio: 1/1;
 }
 
 .square img{
     width: 50%;
-    height: 50%;
     object-fit: contain;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
@@ -380,17 +378,6 @@ h5{
     align-items: center;
 }
 
-.banner-prova{
-    height: 360px;
-    background-color: #B4D0E7;
-}
-
-.container-prova{
-    margin: 0 auto;
-    width: 55%;
-    height: 100%;
-    border: 1px solid black;
-}
 
 .active-box{
     justify-content: center;
@@ -430,4 +417,65 @@ h5{
 
 .clear{
     background-color: #FFD831;
+}
+
+.blocco-centro{
+    background-color: #F5F5F5;
+}
+
+.centro-container{
+    margin: 45px;
+    overflow: auto;
+}
+
+.centro-container img{
+    width: 50%;
+}
+
+.hr-centro{
+    max-width: 100px;
+    color: #DFDFDF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-designit-top{
+    margin-bottom: 50px;
+}
+
+.banner-porta{
+    height: 360px;
+    background-color: #B4D0E7;
+}
+
+.container-porta{
+    margin: 0 auto;
+    width: 55%;
+    height: 100%;
+}
+
+.porta-sx{
+    width: 70%;
+    align-items: center;
+}
+
+.porta-sx h2{
+    font-size: 2.5rem;
+    color: #62072B;
+    font-weight: 700;
+}
+
+.porta-dx{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.prova-gratuita{
+    color: black;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 50px;
 }
