@@ -488,11 +488,12 @@ h5{
     margin: 0 auto;
     width: 55%;
     height: 100%;
+    margin-top: 150px;
 }
 
 .container-FAQ h2{
     font-size: 2.5rem;
-    margin-top: 150px;
+    
     margin-bottom: 75px;
 }
 
@@ -522,17 +523,17 @@ footer{
     margin: 0 auto;
     height: 100%;
     width: 65%;
-    border: 1px solid white;
+    
 }
 
 .container-link{
-    
-    margin: 100px 0;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .container-link .box{
-
-    width: 20%;
+    margin-top: 100px;
+    width: 15%;
     
 }
 
@@ -550,12 +551,13 @@ footer{
 
 .hr-footer{
     width: 115px;
+    color: grey;
 }
 
 .lingua{
     width: 110px;
     align-items: center;
     justify-content: space-around;
-    color: white;
+    color: grey;
     margin: 50px 0;
 }
