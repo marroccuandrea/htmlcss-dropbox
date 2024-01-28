@@ -481,7 +481,7 @@ h5{
 }
 
 .FAQ{
-    height: 730px;
+    height: 580px;
 }
 
 .container-FAQ{
@@ -510,5 +510,52 @@ h5{
 i.fa-chevron-down{
     margin-right: 40px;
     font-size: 0.7rem;
-    font-weight: 800;
+    font-weight: 900;
+}
+
+footer{
+    height: 580px;
+    background-color: black;
+}
+
+.container-footer{
+    margin: 0 auto;
+    height: 100%;
+    width: 65%;
+    border: 1px solid white;
+}
+
+.container-link{
+    
+    margin: 100px 0;
+}
+
+.container-link .box{
+
+    width: 20%;
+    
+}
+
+.box h3{
+    color: white;
+}
+
+.box ul a{
+    color: white;
+}
+
+.box ul li{
+    line-height: 2.4rem;
+}
+
+.hr-footer{
+    width: 115px;
+}
+
+.lingua{
+    width: 110px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin: 50px 0;
 }
