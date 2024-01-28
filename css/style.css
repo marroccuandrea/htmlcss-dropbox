@@ -372,6 +372,7 @@ h5{
     width: 50%;
     height: 50%;
     object-fit: contain;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 .square{
@@ -389,4 +390,44 @@ h5{
     width: 55%;
     height: 100%;
     border: 1px solid black;
+}
+
+.active-box{
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    background-color: #A2D39B;
+}
+
+.designit-sx{
+    background-color: #D1E8CC;
+}
+
+.asu{
+    background-color: #62072B;
+}
+
+.uf{
+    background-color: #0093CE;
+}
+
+.topps{
+    background-color: #FF1D1C;
+}
+
+.wbr{
+    background-color: #D4031F;
+}
+
+.hearst{
+    background-color: #B4CFE6;
+}
+
+.lonely{
+    background-color: #0E2481;
+}
+
+.clear{
+    background-color: #FFD831;
 }
