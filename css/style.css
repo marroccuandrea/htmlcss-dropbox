@@ -368,3 +368,25 @@ h5{
     aspect-ratio: 1/1;
 }
 
+.square img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.square{
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-prova{
+    height: 360px;
+    background-color: #B4D0E7;
+}
+
+.container-prova{
+    margin: 0 auto;
+    width: 55%;
+    height: 100%;
+    border: 1px solid black;
+}
