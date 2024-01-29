@@ -538,7 +538,7 @@ h5{
 }
 
 .FAQ-text{
-    height: 100px;
+    
     border-bottom: 1px solid grey ;
     justify-content: space-between;
     align-items: center;
@@ -546,12 +546,41 @@ h5{
 
 .FAQ-text p{
     font-weight: 700;
+    height: 100%;
+    margin: 50px 0;
+    
 }
 
 i.fa-chevron-down{
-    margin-right: 40px;
+    margin-right: 5%;
     font-size: 0.7rem;
     font-weight: 900;
+}
+i.fa-chevron-up{
+    display: none;
+    margin-right: 5%;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.ghost{
+    display: none;
+}
+
+.FAQ-text:hover i.fa-chevron-down{
+    display: none;
+}
+
+.FAQ-text:hover i.fa-chevron-up{
+    display: block;
+}
+
+.FAQ-text:hover p:first-child{
+    display: none;
+}
+
+.FAQ-text:hover .ghost{
+    display: block;
 }
 
 footer{
