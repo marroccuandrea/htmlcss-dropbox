@@ -381,7 +381,6 @@ h5{
 
 .macro-blocco{
     width: 100%;
-    height: 620px;
 }
 
 .macro-blocco .blocco-sx,.macro-blocco  .blocco-centro,.macro-blocco .blocco-dx{
@@ -406,6 +405,7 @@ h5{
 .square{
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1/1;
 }
 
 
@@ -419,43 +419,53 @@ h5{
 
 .designit-sx{
     background-color: #D1E8CC;
+    aspect-ratio: 1/1;
 }
 
 .asu{
     background-color: #62072B;
+    aspect-ratio: 1/1;
 }
 
 .uf{
     background-color: #0093CE;
+    aspect-ratio: 1/1;
 }
 
 .topps{
     background-color: #FF1D1C;
+    aspect-ratio: 1/1;
 }
 
 .wbr{
     background-color: #D4031F;
+    aspect-ratio: 1/1;
 }
 
 .hearst{
     background-color: #B4CFE6;
+    aspect-ratio: 1/1;
 }
 
 .lonely{
     background-color: #0E2481;
+    aspect-ratio: 1/1;
 }
 
 .clear{
     background-color: #FFD831;
+    aspect-ratio: 1/1;
 }
 
 .blocco-centro{
     background-color: #F5F5F5;
+    overflow: auto;
+    aspect-ratio: 1/1;
 }
 
 .centro-container{
     margin: 45px;
-    overflow: auto;
+    aspect-ratio: 1/1;
 }
 
 .centro-container img{
