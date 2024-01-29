@@ -66,10 +66,15 @@ a{
     font-weight: 400;
 }
 
+
 .nav-dx .inizia{
     padding: 7px 18px;
     background-color: #0062FF;
     color: white;
+}
+
+.nav-dx .inizia:hover{
+    background-color: #4C90FF;
 }
 
 main{
@@ -131,6 +136,10 @@ h1{
     padding: 10px 20px;
 }
 
+.prova-text a:hover{
+    background-color: #4C90FF;
+}
+
 .arrow a{
     font-size: 3.8rem;
     color: black;
@@ -138,7 +147,7 @@ h1{
 }
 
 .abbonamenti{
-    margin-top: 200px;
+    margin-top: 180px;
 }
 
 .abbonamenti-box{
@@ -239,6 +248,10 @@ h3{
     padding: 12px 5px;
 }
 
+.prova-gratis:hover{
+    background-color: #4C90FF;
+}
+
 .oppure{
     margin-bottom: 40px;
 }
@@ -297,6 +310,10 @@ h5{
     padding: 10px 45px;
 }
 
+.container-dx a:hover{
+    background-color: #4C90FF;
+}
+
 .contatto-box{
     height: 515px;
     width: 55%;
@@ -325,6 +342,10 @@ h5{
     width: 42%;
     margin-top: 30px;
     padding: 12px 15px;
+}
+
+.partner-btn:hover{
+    background-color: #989898;
 }
 
 .operazioni{
@@ -518,6 +539,10 @@ h5{
     text-align: center;
     padding: 12px 0;
     margin-bottom: 50px;
+}
+
+.prova-gratuita:hover{
+    background-color: #989898;
 }
 
 .FAQ{
