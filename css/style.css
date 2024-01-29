@@ -545,15 +545,12 @@ h5{
     background-color: #989898;
 }
 
-.FAQ{
-    height: 580px;
-}
-
 .container-FAQ{
     margin: 0 auto;
     width: 55%;
     height: 100%;
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .container-FAQ h2{
